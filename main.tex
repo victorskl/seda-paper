@@ -1,0 +1,128 @@
+% CHI Extended Abstracts template.
+% Tested with XeTeX on Mac OS X (Get it from http://tug.org/mactex)
+% The latest version is available at <http://manas.tungare.name/software/latex/>
+% 
+% Filename: chi-ext.cls
+% 
+% CHANGELOG:
+%   2010-10-18   Manas Tungare      Restored support for \figures.
+%   2010-08-09   Manas Tungare      Updated copyright info for CHI 2011
+%   2009-12-04   Stephen Voida      Updated copyright info for CHI 2010
+%   2008-11-25   Manas Tungare      Initial create.
+%   2009-11-17   Manas Tungare      Refactored the title & author sections.
+% 
+% LICENSE:
+%   Public domain: You are free to do whatever you want with this template.
+%   If you improve this in any way, please drop me a note <manas@tungare.name>,
+%   so I can share the updates with everyone.
+%   
+%   PLEASE RECONSIDER BEFORE FORKING THIS TEMPLATE; there are already
+%   several versions of the chiproceedings template for no good reason.
+%   DO NOT REDISTRIBUTE THIS FILE UNDER A DIFFERENT FILENAME unless you
+%   have a very good reason to change its name.
+
+\documentclass{chi-ext}
+
+\usepackage{subfiles}
+\usepackage{wrapfig}
+\usepackage[export]{adjustbox}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\title{S.E.D.A - Smart Elegant Driving Assistant}
+
+\author{
+  \textbf{San Kho Lin} \\
+  829463 \\
+  sanl1@student.unimelb.edu.au \\
+  \\
+  \textbf{Bingfeng Liu} \\
+  639187 \\
+  bingfengl@student.unimelb.edu.au \\
+  \\
+  \textbf{Yixin Chen} \\
+  522819 \\
+  alachen@student.unimelb.edu.au \\
+}
+
+\keywords{active decision making, safer future, safe driving, driver assistance systems, intelligent transportation systems, augmented reality, machine learning, artificial intelligence}
+
+%\acmclassification{H.5.2 Information Interfaces and Presentation: User interfaces –
+%Evaluation/ methodology}
+
+\copyrightinfo{
+  Copyright is held by the author/owner(s). \\
+  \emph{SEDA Team}, Mobile Computing Systems Programming. \\
+  The University of Melbourne. COMP90018 2017SM2 \\
+}
+
+% Repeat author names (minus affiliations and addresses) and title here 
+% for PDF metadata.
+\hypersetup{
+  pdfauthor={San Kho Lin, Bingfeng Liu, Yixin Chen},
+  %pdfkeywords={Keyword 1, Keyword 2},
+  %pdfsubject={General Subject Area},
+  pdftitle={S.E.D.A - Smart Elegant Driving Assistant},
+}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+  
+\makeauthors
+\makecopyright
+
+\section{Abstract}
+\subfile{abstract}
+
+\section{Keywords}
+\makeatletter \@keywords \makeatother
+
+%\section{ACM Classification Keywords}
+%\makeatletter \@acmclassification \makeatother
+
+%------------------------------------------------------------------------
+
+\section{Introduction}
+\subfile{intro}
+
+\section{Background}
+\subfile{background}
+
+\section{Related Work}
+\subfile{related-work}
+
+\section{Hardware Aspect}
+\subfile{hardware}
+
+\section{Software Aspect}
+\subfile{software}
+
+\section{Extension of the System}
+\subfile{extension}
+
+\section{User of the System}
+The major design goal of the SEDA encouraged the participation of the user. Therefore, the SEDA was designed solely for using as a personal gadget that everyone could buy at local consumer electronic store. A user with enough technical background could able to operate their own instance of the SEDA cloud intelligence service by following the operational manual. Otherwise, a user subscribed to the third party service provider for secured access of their private driving profile data. This idea reassembled to the popular sport wear Fitbit sharing of a user sport activities and their health statistics.
+
+Besides as a personal gadget, if the user decided to disclose their driving profile (a good driving behaviour) for a car insurance company, this could negotiate an incentive for insurance premium as a proven evidence for safe and good behaving driving record.
+
+The enforcing body like VicRoads could also use the SEDA to train a better safer driver.
+
+Furthermore, the SEDA could more generalized its use by not only for a car driver but also for any driver in a good behaving driving needs such as Cyclist, Motorbike and so on.
+
+\section{Conclusion}
+\subfile{conclusion}
+
+\bibliography{papers}
+\bibliographystyle{abbrv}
+
+\end{multicols}
+
+\newpage
+\section{Appendix}
+\subfile{appendix}
+
+
+\end{document}
