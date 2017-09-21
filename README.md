@@ -1,5 +1,5 @@
 # seda-paper
-This S.E.D.A paper is prepared for the term project assessment of COMP90018 Mobile Computing Systems Programming 2017 SM1, The University of Melbourne. This project is in LaTeX format and it can use [MiKTeX](https://miktex.org/) or equivalent TeX compiler to build the report. You can read [the report](https://github.com/victorskl/seda-paper/releases/download/v1.0/SEDA_PAPER_20170828.pdf). It still has room for improvement. You may wish to cite this work as follow.
+This S.E.D.A paper is prepared for the term project assessment of COMP90018 Mobile Computing Systems Programming 2017 SM2, The University of Melbourne. This project is in LaTeX format and it can use [MiKTeX](https://miktex.org/) or equivalent TeX compiler to build the report. You can read [the paper](https://github.com/victorskl/seda-paper/releases/download/v1.0/SEDA_PAPER_20170828.pdf). It still has room for improvement. You may wish to cite this work as follow.
 
 LaTeX/BibTeX:
 ```
