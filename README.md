@@ -10,7 +10,7 @@ LaTeX/BibTeX:
     author    = {San Kho Lin, Bingfeng Liu, Yixin Chen},
     title     = {S.E.D.A - Smart Elegant Driving Assistant},
     year      = {2017},
-    url       = {https://github.com/victorskl/seda-paper/releases/tag/v1.0},
+    url       = {https://github.com/victorskl/seda-paper/releases/tag/v201709},
     urldate   = {yyyy-mm-dd}
 }
 ```
